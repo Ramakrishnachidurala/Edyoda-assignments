@@ -1,3 +1,4 @@
+#Code to count number of odd and even numbers
 a=(1,2,3,4,5,6,7,8,9)
 e=0
 o=0
