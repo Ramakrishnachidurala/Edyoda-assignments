@@ -7,4 +7,4 @@ for i in a:
        e+=1
     else:
        o+=1
-print("Number of even numbers:",e,"\nNumber of odd numbers:",o)
+print("Number of even numbers :",e,"\nNumber of odd numbers :",o)
