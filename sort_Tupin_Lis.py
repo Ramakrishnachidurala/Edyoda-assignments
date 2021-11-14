@@ -16,4 +16,18 @@ for i in range(len(lis)):
         if lis[i]==a[j][1]:
             num=lis.index(lis[i])
             lis2.insert(num,a[j])
-print(lis2)        
+print(lis2)
+
+#method2 using functions
+"""#define function endelement return last element of every tuple
+
+def endelement(a):
+	return a[-1]
+
+#Define another function sorttuple with the previous function as the key and sort the list
+def sorttuple(tuples):
+	return sorted(tuples, key=endelement)
+
+a=[(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+print(sorttuple(a))"""
