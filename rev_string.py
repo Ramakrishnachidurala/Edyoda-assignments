@@ -13,7 +13,9 @@ revstring("1234abcd")
 """method 2
 using slicing
 
+def revstring(s):
+	print(a[::-1])
 a="1234abcd"
-print(a[::-1])
+revstring(a)
 
 """
