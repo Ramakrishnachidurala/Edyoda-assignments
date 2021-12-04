@@ -6,5 +6,5 @@
 a=lambda i :i*3
 
 lis=[1, 2, 3, 4, 5, 6, 7]
-
+print("Triple of list numbers:")
 print(list(map(a,lis)))
