@@ -6,5 +6,5 @@
 a=lambda i :i*3
 
 lis=[4,5,2,9]
-
+print("List of Squares of lis is: ")
 print(list(map(a,lis)))
