@@ -3,7 +3,7 @@
    without using an explicit for loop, a technique commonly known as mapping. 
    map() is useful when you need to apply a transformation function to each item in an iterable and transform them into a new iterable."""
 
-a=lambda i :i*3
+a=lambda i :i*i
 
 lis=[4,5,2,9]
 print("List of Squares of lis is: ")
